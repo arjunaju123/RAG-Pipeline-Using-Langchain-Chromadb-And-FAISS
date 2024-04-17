@@ -25,7 +25,9 @@ st.title('Langchain Demo With LLAMA2 API')
 input_text=st.text_input("Search the topic u want")
 
 # ollama LLAma2 LLm 
-llm=Ollama(model="llama2")
+#Ollama: Running Large Language Models Locally in CPU
+llm=Ollama(model="llama2")#7B param model like llama2 requires atleast 8gb of ram
+#download any model required by running "ollama run modelname" in cmd
 output_parser=StrOutputParser()
 chain=prompt|llm|output_parser
 
