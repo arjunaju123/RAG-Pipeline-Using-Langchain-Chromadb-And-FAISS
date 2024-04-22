@@ -11,13 +11,3 @@ bs4
 pypdf
 chromadb
 faiss-cpu
-wikipedia
-arxiv
-google-generativeai
-langchainhub
-langchain-google-genai
-langchain-cli
-numexpr
-groq
-langchain-groq
-beautifulsoup4
